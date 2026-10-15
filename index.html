@@ -1072,8 +1072,8 @@ section[id]{scroll-margin-top:64px;} :focus-visible{outline:2px solid #b0a5f5;ou
 .cover-orbit{position:absolute;z-index:0;width:54vw;height:54vw;right:-16vw;top:10%;border-radius:50%;border:1px solid #c0a5ff32;box-shadow:inset 2rem 0 6rem #9b74e714,0 0 7rem #9b74e710;transform:rotate(-30deg);}
 .cover-orbit:before,.cover-orbit:after{content:'';position:absolute;inset:10%;border:1px solid #c0a5ff25;border-radius:50%;}.cover-orbit:after{inset:23%;}
 .pm-title{font-size:clamp(2.2rem,5vw,4.8rem);line-height:1.06;letter-spacing:-.04em;color:#f5f3ff;margin:1rem 0;}.pm-subtitle{color:#b0a5f5;font-size:1rem;line-height:1.7;}
-.pm-stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #353044;border-bottom:1px solid #353044;padding:1.6rem 0;margin:2.5rem 0;gap:1rem;}.pm-stats>div{display:flex;flex-direction:column;gap:.6rem;}.pm-stats strong{font-size:clamp(1.5rem,4vw,3rem);font-weight:500;color:#eee;}.pm-stats span{color:#aaa;font-size:.8rem;}
-.pm-description{font-size:clamp(.95rem,1.3vw,1.1rem);line-height:1.95;max-width:950px;color:#bdb8cb;word-break:keep-all;}.pm-description strong{font-weight:500;color:#eee;display:inline-block;margin-bottom:.75rem;}
+
+.pm-description{margin-top:1.5rem;}
 .pm-process{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem;margin:2rem 0 3.5rem;font-size:.8rem;color:#cdc6e0;}.pm-process span{border:1px solid #353044;padding:.7rem 1rem;border-radius:5px;}.pm-process b{color:#777;font-weight:400;}
 .film-heading{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:0 0 1rem;}.film-heading h4,.offline-heading h4{font-size:clamp(1.2rem,2vw,1.7rem);font-weight:500;color:#eee;}.film-heading a{font-size:.8rem;color:#b0a5f5;text-underline-offset:4px;}
 .pm-video{position:relative;aspect-ratio:16/9;background:#111;border:1px solid #353044;border-radius:12px;overflow:hidden;}.pm-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}.film-credit{font-size:.8rem;color:#aaa;margin:1rem 0 3rem;line-height:1.7;}
@@ -1082,7 +1082,7 @@ section[id]{scroll-margin-top:64px;} :focus-visible{outline:2px solid #b0a5f5;ou
 .visualization-support{margin:4rem auto 0;border-top:1px solid #353044;padding-top:3rem;max-width:1280px;}
 #other-projects>.portfolio-chapter{padding:1rem 0 3rem;}#other-projects>.portfolio-chapter .chapter-heading{border:0;margin:1rem 0 2rem;}#other-projects>.portfolio-chapter .chapter-heading h2{font-size:1.4rem;}#other-projects>.portfolio-chapter .chapter-heading>span{font-size:.65rem;}
 .card-meta-desc,.card-meta-desc-list,.pm-description{overflow-wrap:break-word;}
-@media(max-width:700px){#hero{min-height:100svh;aspect-ratio:auto;}.cover-content{padding-top:7rem;}.cover-eyebrow{font-size:.6rem;margin-bottom:3rem;}.cover-content h1{font-size:clamp(3rem,11vw,5rem);}.cover-sub{font-size:.88rem;margin-bottom:2.5rem;}.cover-bottom{flex-direction:column;font-size:.7rem;}.cover-orbit{width:100vw;height:100vw;right:-60vw;top:20%;}.offline-grid{grid-template-columns:1fr;gap:2rem;}.pm-stats{gap:.5rem;}.pm-process{gap:.5rem;}.pm-process span{padding:.5rem;font-size:.72rem;}.film-heading a{font-size:.7rem;}.contents-title{font-size:1.05rem;}footer{gap:1rem;flex-wrap:wrap;}}
+@media(max-width:700px){#hero{min-height:100svh;aspect-ratio:auto;}.cover-content{padding-top:7rem;}.cover-eyebrow{font-size:.6rem;margin-bottom:3rem;}.cover-content h1{font-size:clamp(3rem,11vw,5rem);}.cover-sub{font-size:.88rem;margin-bottom:2.5rem;}.cover-bottom{flex-direction:column;font-size:.7rem;}.cover-orbit{width:100vw;height:100vw;right:-60vw;top:20%;}.offline-grid{grid-template-columns:1fr;gap:2rem;}.pm-process{gap:.5rem;}.pm-process span{padding:.5rem;font-size:.72rem;}.film-heading a{font-size:.7rem;}.contents-title{font-size:1.05rem;}footer{gap:1rem;flex-wrap:wrap;}}
 </style></head>
 <body>
 <div id="cursor"></div>
@@ -1260,8 +1260,7 @@ section[id]{scroll-margin-top:64px;} :focus-visible{outline:2px solid #b0a5f5;ou
   <div class="card-chapter">Event · Multimedia · Production Management</div>
   <h3 class="pm-title">Motion Capture<br>Collaboration Project</h3>
   <p class="pm-subtitle">Project PM / Production Coordination</p>
-  <div class="pm-stats"><div><strong>3</strong><span>참여 전공</span></div><div><strong>~15</strong><span>참여 인원</span></div><div><strong>3 DAYS</strong><span>현장 운영</span></div></div>
-  <p class="pm-description"><strong>3개 전공, 약 15명이 참여한 모션캡처 융합 프로젝트의 운영 PM을 담당했습니다.</strong><br>모델 스캔, 3D 캐릭터 제작, 의상 적용, 모션캡처 촬영으로 이어지는 제작 과정을 조율하고, 교수 피드백 및 참여 학생 작업물을 관리했습니다. 메이킹필름 외주 제작과 현수막·배너·굿즈 제작물을 디렉팅·검수했으며, 행사 공간 구성과 설치, 3일간의 현장 운영까지 담당했습니다.</p>
+  <p class="card-meta-desc pm-description">3개 전공, 약 15명이 참여한 모션캡처 융합 프로젝트의 운영 PM을 담당했습니다. 모델 스캔, 3D 캐릭터 제작, 의상 적용, 모션캡처 촬영으로 이어지는 제작 과정을 조율하고, 교수 피드백 및 참여 학생 작업물을 관리했습니다. 메이킹필름 외주 제작과 현수막·배너·굿즈 제작물을 디렉팅·검수했으며, 행사 공간 구성과 설치, 3일간의 현장 운영까지 담당했습니다.</p>
   <div class="pm-process"><span>모델 스캔</span><b>→</b><span>3D 캐릭터 제작</span><b>→</b><span>의상 적용</span><b>→</b><span>모션캡처 촬영</span></div>
   <div class="film-heading"><h4>Making Film</h4><a href="https://www.youtube.com/watch?v=v-OvRMS3NUk" target="_blank" rel="noopener noreferrer">YouTube에서 보기 ↗</a></div>
   <div class="pm-video"><iframe src="https://www.youtube.com/embed/v-OvRMS3NUk?rel=0" title="Motion Capture Collaboration Project — Making Film" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
