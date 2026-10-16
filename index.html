@@ -1083,6 +1083,16 @@ section[id]{scroll-margin-top:64px;} :focus-visible{outline:2px solid #b0a5f5;ou
 #other-projects>.portfolio-chapter{padding:1rem 0 3rem;}#other-projects>.portfolio-chapter .chapter-heading{border:0;margin:1rem 0 2rem;}#other-projects>.portfolio-chapter .chapter-heading h2{font-size:1.4rem;}#other-projects>.portfolio-chapter .chapter-heading>span{font-size:.65rem;}
 .card-meta-desc,.card-meta-desc-list,.pm-description{overflow-wrap:break-word;}
 @media(max-width:700px){#hero{min-height:100svh;aspect-ratio:auto;}.cover-content{padding-top:7rem;}.cover-eyebrow{font-size:.6rem;margin-bottom:3rem;}.cover-content h1{font-size:clamp(3rem,11vw,5rem);}.cover-sub{font-size:.88rem;margin-bottom:2.5rem;}.cover-bottom{flex-direction:column;font-size:.7rem;}.cover-orbit{width:100vw;height:100vw;right:-60vw;top:20%;}.offline-grid{grid-template-columns:1fr;gap:2rem;}.pm-process{gap:.5rem;}.pm-process span{padding:.5rem;font-size:.72rem;}.film-heading a{font-size:.7rem;}.contents-title{font-size:1.05rem;}footer{gap:1rem;flex-wrap:wrap;}}
+</style><style>
+/* Final offline production gallery: preserve complete artwork. */
+#offline-assets{grid-template-columns:1fr;gap:3rem;}
+#offline-assets .card-chapter{margin-bottom:1rem;}
+.offline-image-link{display:block;border-radius:12px;overflow:hidden;border:1px solid #353044;background:#11111b;}
+.offline-image{display:block;width:100%;height:auto;}
+.offline-media-pair{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;align-items:start;}
+.offline-media-pair figure{margin:0;}
+.offline-media-pair figcaption{margin-top:.65rem;font-size:.75rem;line-height:1.7;color:#aaa;}
+@media(max-width:700px){.offline-media-pair{grid-template-columns:1fr;gap:1.5rem;}}
 </style></head>
 <body>
 <div id="cursor"></div>
@@ -1350,7 +1360,13 @@ section[id]{scroll-margin-top:64px;} :focus-visible{outline:2px solid #b0a5f5;ou
   <div class="pm-video"><iframe src="https://www.youtube.com/embed/v-OvRMS3NUk?rel=0" title="Motion Capture Collaboration Project — Making Film" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
   <p class="film-credit">메이킹필름 외주 제작 디렉팅 · 피드백 전달 · 결과물 검수</p>
   <div class="offline-heading"><p class="card-chapter">Offline Asset Production</p><h4>화면 밖으로 이어지는 제작과 운영</h4></div>
-  <div class="offline-grid"><article><div class="asset-placeholder"><span>01 / GOODS</span><p>굿즈 제작 결과물</p><small>이미지 자료 준비 중</small></div><h5>굿즈 제작 디렉팅·검수</h5><p>행사 굿즈 제작물을 디렉팅하고 결과물을 검수했습니다.</p></article><article><div class="asset-placeholder"><span>02 / BANNER &amp; SIGNAGE</span><p>현수막·배너 제작 결과물</p><small>이미지 자료 준비 중</small></div><h5>현수막·배너 제작 및 현장 운영</h5><p>현수막·배너 제작물을 디렉팅·검수하고, 행사 공간 구성과 설치, 3일간의 현장 운영을 담당했습니다.</p></article></div>
+  <div class="offline-grid" id="offline-assets">
+    <article><p class="card-chapter">01 / GOODS</p><a class="offline-image-link" href="dia-goods.png" target="_blank" rel="noopener noreferrer" aria-label="DIA 굿즈 제작 결과물 크게 보기"><img class="offline-image" src="dia-goods.png" width="1672" height="941" loading="lazy" alt="DIA 학생증과 목걸이 스트랩, 캐릭터 및 그래픽 스티커 굿즈 제작 결과물"></a><h5>굿즈 제작 디렉팅·검수</h5><p>행사 굿즈 제작물을 디렉팅하고 결과물을 검수했습니다.</p></article>
+    <article><p class="card-chapter">02 / POSTER, BANNER &amp; SIGNAGE</p><div class="offline-media-pair">
+      <figure><a class="offline-image-link" href="dia-poster.png" target="_blank" rel="noopener noreferrer" aria-label="DIA 전시 포스터 제작 결과물 크게 보기"><img class="offline-image" src="dia-poster.png" width="1066" height="941" loading="lazy" alt="Virtual Human DIA 전시 포스터 제작 결과물"></a><figcaption>전시 포스터</figcaption></figure>
+      <figure><a class="offline-image-link" href="dia-banner.png" target="_blank" rel="noopener noreferrer" aria-label="DIA 전시 현수막 배너 제작 결과물 크게 보기"><img class="offline-image" src="dia-banner.png" width="942" height="1024" loading="lazy" alt="Virtual Human DIA 전시 현수막·배너 제작 결과물"></a><figcaption>현수막·배너</figcaption></figure>
+    </div><h5>포스터·현수막·배너 제작 및 현장 운영</h5><p>오프라인 제작물을 디렉팅·검수하고, 행사 공간 구성과 설치, 3일간의 현장 운영을 담당했습니다.</p></article>
+  </div>
   <div class="role-block"><p class="role-label">ROLE</p><p class="role-list">Project PM · Production Coordination · Content Review · Offline Asset Production · On-site Operation</p></div>
 </div></section>
 <section id="other-projects" class="portfolio-chapter size-large"><header class="chapter-heading"><span>06</span><h2>OTHER PROJECTS</h2></header><section id="showreel" class="portfolio-chapter size-large"><header class="chapter-heading"><span>MORE</span><h2>SHOWREEL</h2></header><div class="work-card">
